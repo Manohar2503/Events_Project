@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .bg-half-color {
+      background-image: linear-gradient(to bottom, #1d1d34 50%, #fff 50%);
+    }
+  }
